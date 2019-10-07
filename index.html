@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script
+   src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <title>About Me</title>
+  <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+  <br>
+  <div class="container">
+    <h1>Eisenzimmer, Clint - <small id="smalltext" >Software Development</small></h1>
+    <p class="jumbotron text-center">Three facts about me: I like dogs, I used to produce music professionally, and I enjoy gaming as well as making games.  I went into Computer Science with the hopes that I would gain enough knowledge to program games on my own or with a company.</p>
+  </div>
+
+  <div id="" class="container">
+        <a id="githubLink" href="https://github.com/clei1719" class="btn btn-info" role="button">Clint's GitHub</a>
+  </div>
+  <br>
+  <br>
+
+  <div class="container">
+    <img src="./images/Image-2.jpeg"  class="rounded-circle" alt="25" height= 500px width=400px;>
+  </div>
+  <br>
+  <br>
+  <div class="container">
+    <table class="table table-dark">
+    <thead>
+      <h3>My Favorite Projects</h3>
+      <tr>
+        <th id=text scope="col">#</th>
+        <th id=text scope="col">Name of Project </th>
+        <th id=text scope="col">Technologies Used</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th id=text scope="row">1</th>
+        <td id=text >Website Dev</td>
+        <td id=text >HTML,CSS,JS</td>
+      </tr>
+      <tr>
+        <th id=text  scope="row">2</th>
+        <td id=text >Marvel Trivia</td>
+        <td id=text >C++</td>
+      </tr>
+      <tr>
+        <th id=text  scope="row">3</th>
+        <td id=text >CSCI-1300 Final Project</td>
+        <td id=text >C++</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="accordian" id="accOne">
+        <div class="card">
+          <div class="card-header" id="headone">
+            <button id="countryText" type="button" class="btn btn-link" data-toggle="collapse" data-target=".countries" roles="button">Countries Visited</button>
+          </div>
+          <div class="countries collapse">
+            <ul class="list-group list-group-flush mb-0">
+              <li class="list-group-item">USA</li>
+              <li class="list-group-item">Germany</li>
+              <li class="list-group-item">Greece</li>
+              <li class="list-group-item">Austria</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="accordian" id="accTwo">
+        <div class="card">
+          <div class="card-header" id="headTwo">
+            <button id="interest"type="button" class="btn btn-link" data-toggle="collapse" data-target=".interests" roles="button">Interests</button>
+          </div>
+          <div class="interests collapse">
+            <ul class="list-group list-group-flush mb-0">
+              <li class="list-group-item">Gaming</li>
+              <li class="list-group-item">Coding</li>
+              <li class="list-group-item">Fishing</li>
+              <li class="list-group-item">Camping</li>
+              <li class="list-group-item">Movies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <!-- Button trigger modal -->
+  <button id="popupButton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Click Me!
+  </button>
+
+  <a <a id="githubLink" href="./index0.html" class="btn btn-info" role="button">Old Website</a>
+
+    <a <a id="githubLink" href="./form.html" class="btn btn-info" role="button">Forms</a>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suprise!!!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>The bomb will explode in 5 minutes!</p>
+        <p>This message will now self destruct!!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
